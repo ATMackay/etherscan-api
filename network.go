@@ -13,7 +13,7 @@ const (
 	// Mainnet Ethereum mainnet for production
 	Mainnet Network = "api"
 	// Ropsten Testnet(POW)
-	Ropsten Network = "api-ropsten"
+	Ropsten Network = "api-ropsten" // DEPRECATED
 	// Kovan Testnet(POA)
 	Kovan Network = "api-kovan"
 	// Rinkby Testnet(CLIQUE)
@@ -22,6 +22,10 @@ const (
 	Goerli Network = "api-goerli"
 	// Tobalaba Testnet
 	Tobalaba Network = "api-tobalaba"
+	// Sepolia Testnet
+	Sepolia Network = "api-sepolia"
+	// Holesky Testnet
+	Holesky Network = "api-holesky"
 )
 
 // Network is ethereum network type (mainnet, ropsten, etc)
